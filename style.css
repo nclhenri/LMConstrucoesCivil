@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: 'Archivo', sans-serif;
+    --font2: 'Carrois Gothic', sans-serif;
+}
+
+main {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+.site {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topo1 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo1 a {
+    font-family: var(--font1);
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.topo2 {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.topo2 img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.topo2 a {
+    font-family: var(--font2);
+    font-size: 24px;
+    text-decoration: none;
+    color: black
+}
+
+.topo2 div a:nth-child(2) {
+    margin: 0px 23px;
+}
+
+.topo2 div a:hover {
+    color: white;
+}
+
+
+/* SEÇÃO BANNER */
+    
+.banner img {
+    width: 100%;
+}
+
+/* SEÇÃO O QUE FAZEMOS */
+
+.servicos {
+    padding: 20px;
+    background: url(./img/fundoServico.png);
+}
+
+.servicos h2,
+h3 {
+    text-align: center;
+    color: white;
+}
+
+.servicos h2 {
+    font-family: var(--font1);
+    font-weight: bold;
+    
+}
+
+.servicos h3 {
+    font-family: var(--font1);
+    font-weight: lighter;
+}
+
+/* SEÇÃO COMO FUNCIONA  */
+
+.estruturaCards{
+    display: flex;
+    margin-top: 50px;
+}
+
+.cards img{
+    margin-bottom: 15px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 45px;
+    background-color: black;
+    margin-right: 30px;
+    max-height: 500px;
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+}
+
+.cards p{
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.tituloCards{
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+}
