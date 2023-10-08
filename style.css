@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -9,9 +10,6 @@
     --font2: 'Carrois Gothic', sans-serif;
 }
 
-main {
-    background-color: black;
-}
 
 header {
     background-color: black;
@@ -77,8 +75,15 @@ header {
 .servicos {
     padding: 20px;
     background: url(./img/fundoServico.png);
+    margin-bottom: 50px;
 }
 
+.servicos p{
+    text-align: center;
+    color: white;
+    font-family: var(--font1);
+    margin-top: 30px;
+}
 .servicos h2,
 h3 {
     text-align: center;
@@ -101,6 +106,7 @@ h3 {
 .estruturaCards{
     display: flex;
     margin-top: 50px;
+    justify-content: center;
 }
 
 .cards img{
@@ -117,7 +123,7 @@ h3 {
     background-color: black;
     margin-right: 30px;
     max-height: 500px;
-    height: 100%;
+    /* height: 100%; */
     max-width: 500px;
     width: 100%;
 }
@@ -134,3 +140,155 @@ h3 {
     margin-bottom: 30px;
     border-bottom: 1px solid white;
 }
+
+/* SEÇÃO GALERIA */
+.galeria{
+    background: url(./img/fundoGaleria.png);
+    padding: 15px;
+}
+
+.estruturaGaleria{
+    text-align: center;
+    font-family: var(--font1);
+}
+
+.estruturaGaleria h2{
+    margin-bottom: 50px;
+}
+
+.imagensGaleria{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.galeria button{
+    margin-top: 50px;
+    background-color: #09A7DF;
+    border: none;
+    font-size: 32px;
+    border-radius: 20px;
+    font-family: var(--font1);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.galeria button:hover{
+    background-color: #21baf1;
+}
+
+
+/* SEÇÃO FORMULARIO */
+
+.formulario h2{
+    color: black;
+    font-size: 24px;
+    font-family: var(--font1);
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.destaqueOnline{
+    background-color: black;
+    color: #00FF19;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.contato{
+    background: url(./img/fundoServico.png);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixas div{
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    font-family: var(--font1);
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.479);
+    margin-bottom: 20px;
+}
+
+.caixas div input{
+    padding: 3px;
+    width: 355%;
+}
+
+.caixas div label{
+    margin-bottom: 7px;
+}
+
+.botoes{
+    display: flex;
+}
+
+.informacoesContato{
+    background-color: white;
+    padding: 15px;
+    height: 15%;
+    border-radius: 15px;
+}
+
+.informacoesContato h3{
+    color: black;
+    font-family: var(--font1);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.informacoesContato div div{
+    margin-top: 20px;
+}
+
+.estruturaContato img{
+    margin-right: 15px;
+}
+
+.estruturaContato a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+.estruturaContato{
+    display: flex;
+    align-items: center;
+}
+
+.estruturaContato img{
+    width: 18%;
+}
+
+.botoes input{
+    background: none;
+    border: 1px solid white ;
+    color: white;
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.botoes input:nth-child(1){
+    margin-right: 14px;
+}
+
+.mens div textarea{
+    resize: none;
+}
+
