@@ -52,7 +52,24 @@ header {
     font-family: var(--font2);
     font-size: 24px;
     text-decoration: none;
-    color: black
+    color: black;
+    position: relative;
+}
+
+.topo2 a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.topo2 a:hover::after{
+    width: 100%;
+
 }
 
 .topo2 div a:nth-child(2) {
@@ -60,9 +77,21 @@ header {
 }
 
 .topo2 div a:hover {
-    color: white;
+    color: rgba(0, 0, 0, 0.37);
 }
 
+.menufixo {
+    z-index: 5;
+    background-color: #fff;
+    animation: fadeIn 1s ease-in-out;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.estruturaTopo2{
+    display: flex;
+    justify-content: center;
+}
 
 /* SEÇÃO BANNER */
     
@@ -158,8 +187,13 @@ h3 {
 
 .imagensGaleria{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 25px;
+}
+
+.imagensGaleria img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .galeria button{
@@ -210,6 +244,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 50px;
 }
 
 .caixas div{
@@ -292,3 +327,55 @@ h3 {
     resize: none;
 }
 
+/* FOOTER */
+
+footer{
+    padding: 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.estruturaFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contatoFooter{
+    margin: 15px 0px;
+}
+
+.contatoFooter img:nth-child(2){
+    margin: 0px 10px;
+}
+
+.creditos h2{
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.creditos h3{
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.desenvolvido a {
+    display: flex;
+    justify-content: center;
+    border-top: white 1px solid;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.desenvolvido img{
+    width: 38%;
+}
