@@ -76,7 +76,11 @@ header {
 
 .menu ul li a:hover::after {
     width: 100%;
+}
 
+.abrirMenu, .fecharMenu{
+    background: transparent;
+    border: none;
 }
 
 .topo2 div a:nth-child(2) {
@@ -393,4 +397,76 @@ footer {
 
 .desenvolvido img {
     width: 38%;
+}
+
+/* SOBRE NOS CSS */
+
+.sobreNos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cabecalho h2{
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.conteudo{
+    margin-top: 50px;
+}
+
+.primeiraParte{
+    display: flex;
+}
+
+.conteudo p{
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.texto{
+    margin-top: 20px;
+}
+
+.engenheiroSobre{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.informacoes h2{
+    font-family: var(--font1);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.informacoes h3{
+    text-align: initial;
+    font-family: var(--font1);
+    font-weight: lighter;
+    color: gray;
+}
+
+.informacoes p{
+    font-family: var(--font1);
+}
+
+.informacoes div{
+    margin-bottom: 15px;
 }
