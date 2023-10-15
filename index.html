@@ -7,6 +7,7 @@
     <title>LM Construções - Home</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposivo.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap');
@@ -29,13 +30,18 @@
             <div class="estruturaTopo2">
                 <div class="topo2">
                     <img src="./img/lmLogo.svg" alt="">
-                    <div id="topo2">
-                        <a href="">Home</a>
-                        <a href="">Quem somos?</a>
-                        <a href="">Contato</a>
-                    </div>
+                    <button class="abrirMenu"></button>
+                    <nav class="menu">
+                        <button class="fecharMenu"></button>
+                        <ul id="menuR">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Quem somos?</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
+
         </header>
         <section class="banner ">
             <img src="./img/Banner.png" alt="">
@@ -122,39 +128,41 @@
             <h2>FAÇA SEU ORÇAMENTO <span class="destaqueOnline">ONLINE</span></h2>
 
             <div class="site contato">
-                <form action="#" method="POST">
+                <div>
+                    <form action="#" method="POST">
 
-                    <div class="caixas">
-                        <div>
-                            <label for="nome">Nome:*</label>
-                            <input type="text" name="nome" id="nome" placeholder="Informe seu nome: " required>
-                        </div>
-
-                        <div>
-                            <label for="nome">Email:*</label>
-                            <input type="text" name="email" id="email" placeholder="Informe seu e-mail: " required>
-                        </div>
-
-                        <div>
-                            <label for="nome">Telefone:*</label>
-                            <input type="text" name="fone" id="fone" placeholder="Informe seu telefone: " required>
-                        </div>
-
-                        <div class="mens ">
+                        <div class="caixas">
+                            <div>
+                                <label for="nome">Nome:*</label>
+                                <input type="text" name="nome" id="nome" placeholder="Informe seu nome: " required>
+                            </div>
 
                             <div>
-                                <label for="mens">Mensagem</label>
-                                <textarea name="mens" id="mens" cols="32" rows="10"></textarea>
+                                <label for="nome">Email:*</label>
+                                <input type="text" name="email" id="email" placeholder="Informe seu e-mail: " required>
                             </div>
-                        </div>
-                        <div class="botoes">
-                            <input type="submit" value="Enviar por E-mail">
-                            <input type="button" value="Enviar por WhatsApp">
+
+                            <div>
+                                <label for="nome">Telefone:*</label>
+                                <input type="text" name="fone" id="fone" placeholder="Informe seu telefone: " required>
+                            </div>
+
+                            <div class="mens ">
+
+                                <div>
+                                    <label for="mens">Mensagem</label>
+                                    <textarea name="mens" id="mens" cols="32" rows="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="botoes">
+                                <input type="submit" value="Enviar por E-mail">
+                                <input type="button" value="Enviar por WhatsApp">
+                            </div>
+
                         </div>
 
-                    </div>
-
-                </form>
+                    </form>
+                </div>
                 <div class="informacoesContato">
 
                     <div>
@@ -191,7 +199,8 @@
                     <h3>Todos os direitos reservados</h3>
                 </div>
                 <div class="desenvolvido">
-                    <a href="https://www.linkedin.com/in/nicolas-henrique-458134253/" target="_blank"><img src="./img/desenvolvido-removebg-preview.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/nicolas-henrique-458134253/" target="_blank"><img
+                            src="./img/desenvolvido-removebg-preview.png" alt=""></a>
                 </div>
             </div>
         </footer>

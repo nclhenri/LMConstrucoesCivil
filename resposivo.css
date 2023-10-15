@@ -1,0 +1,173 @@
+/* Smartphones: 320px até 600px */
+
+@media not all and (max-width: 600px) {
+
+    .abrirMenu,
+    .fecharMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .imagensGaleria{
+        flex-wrap: wrap;
+    }
+
+    .imagensGaleria img{
+        margin-bottom: 15px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 800px){
+    .estruturaCards {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+        margin-bottom: 15px;
+    }
+
+    .imagensGaleria{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagensGaleria img{
+        margin-bottom: 15px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .menu {
+        background-color: rgba(202, 198, 198, 0.568);
+        height: 100%;
+        position: fixed;
+        z-index: 10;
+        width: 50%;
+        max-width: 300px;
+        top: 0;
+        margin: 0;
+        right: -300px;
+        transition: right 0.5s ease-out;
+    }
+
+    .menuMobile .menu {
+        right: 0px;
+    }
+
+
+    .abrirMenu {
+        background: url(./img/abrirMenu.svg);
+        background-size: cover;
+        padding: 20px;
+        border: 0;
+        display: block;
+    }
+
+    .fecharMenu {
+        background: url(./img/fecharMenu.png);
+        background-size: cover;
+        padding: 20px;
+        border: 0;
+        display: block;
+        width: 0%;
+        padding: 10%;
+        margin: 4%;
+    }
+
+    .menu {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .menu ul {
+        flex-direction: column;
+
+        margin: 20px;
+    }
+
+    .menu ul li {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu ul li a {
+        font-size: 30px;
+        margin-right: 60px;
+        margin-bottom: 15px;
+    }
+
+    .menufixo {
+        z-index: 5;
+        background-color: #fff;
+        animation: fadeIn 1s ease-in-out;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+
+    .topo2 img {
+        width: 45%;
+    }
+
+    .estruturaCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .imagensGaleria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagensGaleria img {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    @media (max-width: 442px) {
+        .topo1{
+            display: none;
+        }
+
+        .banner{
+            display: none;
+        }
+
+        .topo2{
+            position: inherit;
+        }
+
+        .desenvolvido img{
+            width: 80%;
+        }
+
+        .formulario h2{
+            flex-direction: column;
+        }
+
+        .servicos p{
+            background-color: black ;
+        }
+    }
+}

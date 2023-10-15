@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 :root {
@@ -48,15 +48,22 @@ header {
     cursor: pointer;
 }
 
-.topo2 a {
+.menu ul li a {
     font-family: var(--font2);
     font-size: 24px;
     text-decoration: none;
     color: black;
     position: relative;
+    margin-right: 15px;
 }
 
-.topo2 a::after{
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.menu ul li a::after {
     content: " ";
     width: 0%;
     height: 2px;
@@ -67,7 +74,7 @@ header {
     transition: 0.5s ease-in-out;
 }
 
-.topo2 a:hover::after{
+.menu ul li a:hover::after {
     width: 100%;
 
 }
@@ -84,17 +91,17 @@ header {
     z-index: 5;
     background-color: #fff;
     animation: fadeIn 1s ease-in-out;
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
 }
 
-.estruturaTopo2{
+.estruturaTopo2 {
     display: flex;
     justify-content: center;
 }
 
 /* SEÇÃO BANNER */
-    
+
 .banner img {
     width: 100%;
 }
@@ -107,12 +114,13 @@ header {
     margin-bottom: 50px;
 }
 
-.servicos p{
+.servicos p {
     text-align: center;
     color: white;
     font-family: var(--font1);
     margin-top: 30px;
 }
+
 .servicos h2,
 h3 {
     text-align: center;
@@ -122,7 +130,7 @@ h3 {
 .servicos h2 {
     font-family: var(--font1);
     font-weight: bold;
-    
+
 }
 
 .servicos h3 {
@@ -132,17 +140,17 @@ h3 {
 
 /* SEÇÃO COMO FUNCIONA  */
 
-.estruturaCards{
+.estruturaCards {
     display: flex;
     margin-top: 50px;
     justify-content: center;
 }
 
-.cards img{
+.cards img {
     margin-bottom: 15px;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,7 +165,7 @@ h3 {
     width: 100%;
 }
 
-.cards p{
+.cards p {
     font-family: var(--font1);
     font-weight: lighter;
     font-size: 24px;
@@ -165,38 +173,45 @@ h3 {
     text-align: center;
 }
 
-.tituloCards{
+.tituloCards {
     margin-bottom: 30px;
     border-bottom: 1px solid white;
 }
 
 /* SEÇÃO GALERIA */
-.galeria{
+.galeria {
     background: url(./img/fundoGaleria.png);
     padding: 15px;
 }
 
-.estruturaGaleria{
+.estruturaGaleria {
     text-align: center;
     font-family: var(--font1);
 }
 
-.estruturaGaleria h2{
+.estruturaGaleria h2 {
     margin-bottom: 50px;
 }
 
-.imagensGaleria{
+.imagensGaleria {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
 }
 
-.imagensGaleria img:hover{
+.imagensGaleria img {
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.imagensGaleria img:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
 
-.galeria button{
+.galeria button {
     margin-top: 50px;
     background-color: #09A7DF;
     border: none;
@@ -209,14 +224,14 @@ h3 {
     cursor: pointer;
 }
 
-.galeria button:hover{
+.galeria button:hover {
     background-color: #21baf1;
 }
 
 
 /* SEÇÃO FORMULARIO */
 
-.formulario h2{
+.formulario h2 {
     color: black;
     font-size: 24px;
     font-family: var(--font1);
@@ -229,14 +244,14 @@ h3 {
     align-items: center;
 }
 
-.destaqueOnline{
+.destaqueOnline {
     background-color: black;
     color: #00FF19;
     padding: 6px;
     border-radius: 6px;
 }
 
-.contato{
+.contato {
     background: url(./img/fundoServico.png);
     padding: 20px;
     margin-top: 50px;
@@ -247,7 +262,7 @@ h3 {
     border-radius: 50px;
 }
 
-.caixas div{
+.caixas div {
     width: 20%;
     color: white;
     font-size: 20px;
@@ -257,42 +272,42 @@ h3 {
     margin-bottom: 20px;
 }
 
-.caixas div input{
+.caixas div input {
     padding: 3px;
     width: 355%;
 }
 
-.caixas div label{
+.caixas div label {
     margin-bottom: 7px;
 }
 
-.botoes{
+.botoes {
     display: flex;
 }
 
-.informacoesContato{
+.informacoesContato {
     background-color: white;
     padding: 15px;
     height: 15%;
     border-radius: 15px;
 }
 
-.informacoesContato h3{
+.informacoesContato h3 {
     color: black;
     font-family: var(--font1);
     font-size: 24px;
     font-weight: bold;
 }
 
-.informacoesContato div div{
+.informacoesContato div div {
     margin-top: 20px;
 }
 
-.estruturaContato img{
+.estruturaContato img {
     margin-right: 15px;
 }
 
-.estruturaContato a{
+.estruturaContato a {
     text-decoration: none;
     color: black;
     font-family: var(--font1);
@@ -300,18 +315,18 @@ h3 {
     font-size: 21px;
 }
 
-.estruturaContato{
+.estruturaContato {
     display: flex;
     align-items: center;
 }
 
-.estruturaContato img{
+.estruturaContato img {
     width: 18%;
 }
 
-.botoes input{
+.botoes input {
     background: none;
-    border: 1px solid white ;
+    border: 1px solid white;
     color: white;
     font-family: var(--font1);
     display: flex;
@@ -319,17 +334,17 @@ h3 {
     cursor: pointer;
 }
 
-.botoes input:nth-child(1){
+.botoes input:nth-child(1) {
     margin-right: 14px;
 }
 
-.mens div textarea{
+.mens div textarea {
     resize: none;
 }
 
 /* FOOTER */
 
-footer{
+footer {
     padding: 15px;
     background-color: black;
     display: flex;
@@ -338,21 +353,21 @@ footer{
     align-items: center;
 }
 
-.estruturaFooter{
+.estruturaFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contatoFooter{
+.contatoFooter {
     margin: 15px 0px;
 }
 
-.contatoFooter img:nth-child(2){
+.contatoFooter img:nth-child(2) {
     margin: 0px 10px;
 }
 
-.creditos h2{
+.creditos h2 {
     font-family: var(--font1);
     font-weight: bold;
     font-size: 30px;
@@ -360,7 +375,7 @@ footer{
     text-align: center;
 }
 
-.creditos h3{
+.creditos h3 {
     font-family: var(--font1);
     font-weight: lighter;
     font-size: 15px;
@@ -376,6 +391,6 @@ footer{
     margin-top: 50px;
 }
 
-.desenvolvido img{
+.desenvolvido img {
     width: 38%;
 }
