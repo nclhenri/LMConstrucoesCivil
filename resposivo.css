@@ -8,6 +8,25 @@
     }
 }
 
+@media (max-width: 1287px){
+    .imagensGaleria{
+        flex-direction: column;
+        width: 50%;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .galeria img{
+        width: 60%;
+    }
+
+    .galeria{
+        justify-content: center !important;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 1200px){
     .imagensGaleria{
         flex-wrap: wrap;
@@ -21,7 +40,7 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 933px){
     .estruturaCards {
         display: flex;
         margin-top: 50px;
@@ -32,6 +51,7 @@
 
     .cards{
         margin-bottom: 15px;
+        margin-right: 0px !important;
     }
 
     .imagensGaleria{
@@ -47,18 +67,24 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
+    .topo1{
+        display: none !important;
+        
+    }
+}
+
+@media (max-width: 774px) {
 
     .menu {
         background-color: rgba(202, 198, 198, 0.568);
-        height: 100%;
         position: fixed;
         z-index: 10;
         width: 50%;
         max-width: 300px;
         top: 0;
         margin: 0;
-        right: -300px;
+        right: -400px;
         transition: right 0.5s ease-out;
     }
 
@@ -88,13 +114,12 @@
 
     .menu {
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: flex-start ;
+        display: flex;
     }
 
     .menu ul {
         flex-direction: column;
-
-        margin: 20px;
     }
 
     .menu ul li {
@@ -144,30 +169,32 @@
     .contato {
         flex-direction: column;
     }
+    .banner{
+        display: none;
+    }
 
-    @media (max-width: 442px) {
-        .topo1{
-            display: none;
-        }
+    .servicos{
+        margin-top: 105px;
+    }
 
-        .banner{
-            display: none;
-        }
+}
 
-        .topo2{
-            position: inherit;
-        }
+@media (max-width: 442px) {
+        
 
-        .desenvolvido img{
-            width: 80%;
-        }
+    .topo2{
+        position: inherit;
+    }
 
-        .formulario h2{
-            flex-direction: column;
-        }
+    .desenvolvido img{
+        width: 80%;
+    }
 
-        .servicos p{
-            background-color: black ;
-        }
+    .formulario h2{
+        flex-direction: column;
+    }
+
+    .servicos p{
+        background-color: black ;
     }
 }

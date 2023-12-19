@@ -1,7 +1,8 @@
 <header>
     <div class="topo1 site">
-        <a href="mailto:lmconstrucoes@email.com">lmconstrucoes@email.com</a>
-        <a href="tel:+55(11)999999-9999">999999-9999</a>
+        <a href="mailto:luan.estruturas@hotmail.com">luan.estruturas@hotmail.com</a>
+        <a href="tel:+55(11)96353-1926">(11) 96353-1926</a>
+        <a href="tel:+55(11)99569-0985">(11) 99569-0985</a>
         <div>
             <img src="./img/instaLogo.svg" alt="">
             <img src="./img/whatsLogo.svg" alt="">
@@ -9,7 +10,8 @@
     </div>
 
     <div class="estruturaTopo2">
-        <div class="topo2">
+
+        <div class="topo2 animate__animated animate__bounceInDown">
             <img src="./img/lmLogo.svg" alt="">
             <button class="abrirMenu"></button>
             <nav class="menu">
@@ -21,5 +23,6 @@
                 </ul>
             </nav>
         </div>
+
     </div>
 </header>

@@ -12,13 +12,13 @@
                     </div>
 
                     <div>
-                        <label for="nome">Email:*</label>
-                        <input type="text" name="email" id="email" placeholder="Informe seu e-mail: " required>
+                        <label for="email">Email:*</label>
+                        <input type="email" name="email" id="email" placeholder="Informe seu e-mail: " required>
                     </div>
 
                     <div>
-                        <label for="nome">Telefone:*</label>
-                        <input type="text" name="fone" id="fone" placeholder="Informe seu telefone: " required>
+                        <label for="fone">Telefone:*</label>
+                        <input type="number" name="fone" id="fone" placeholder="Informe seu telefone: " required>
                     </div>
 
                     <div class="mens ">
@@ -29,8 +29,8 @@
                         </div>
                     </div>
                     <div class="botoes">
-                        <input type="submit" value="Enviar por E-mail">
-                        <input type="button" value="Enviar por WhatsApp">
+                        <!-- <button type="submit" class="btn btn-outline-primary">Enviar por E-Mail</button> -->
+                        <button type="submit" class="btn btn-outline-success" onclick="EnviarWhats()">Enviar por WhatsApp</button>
                     </div>
 
                 </div>
