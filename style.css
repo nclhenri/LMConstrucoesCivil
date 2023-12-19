@@ -31,9 +31,9 @@ header {
 .topo1 a {
     font-family: var(--font1);
     font-size: 15px;
-    text-decoration: none;
     color: white;
 }
+
 
 .topo2 {
     background: transparent;
@@ -105,6 +105,10 @@ header {
     justify-content: center;
 }
 
+.menu{
+    height: 102vh;
+    width: 50vh;
+}
 /* SEÇÃO BANNER */
 
 .banner img {

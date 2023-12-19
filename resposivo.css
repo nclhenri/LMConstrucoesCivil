@@ -84,12 +84,12 @@
         max-width: 300px;
         top: 0;
         margin: 0;
-        right: -400px;
+        right: -600px;
         transition: right 0.5s ease-out;
     }
 
     .menuMobile .menu {
-        right: 0px;
+        right: -263px;
     }
 
 
@@ -112,7 +112,7 @@
         margin: 4%;
     }
 
-    .menu {
+    .menu{
         flex-direction: column;
         justify-content: flex-start ;
         display: flex;
@@ -177,6 +177,12 @@
         margin-top: 105px;
     }
 
+}
+
+@media (max-width: 536px) {
+    .menuMobile .menu {
+        right: -144px;
+    }
 }
 
 @media (max-width: 442px) {
