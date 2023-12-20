@@ -94,10 +94,14 @@ header {
 
 .menufixo {
     z-index: 5;
-    background-color: #fff;
-    animation: fadeIn 1s ease-in-out;
+    background-color: #ffffffc7;
+    /* animation: fadeIn 1s ease-in-out; */
     padding: 20px;
     border-radius: 15px;
+}
+
+.estiloAlternativo{
+    background-color: white;
 }
 
 .estruturaTopo2 {
@@ -105,10 +109,6 @@ header {
     justify-content: center;
 }
 
-.menu{
-    height: 102vh;
-    width: 50vh;
-}
 /* SEÇÃO BANNER */
 
 .banner img {
@@ -215,6 +215,8 @@ h3 {
     background-color: white;
     padding: 10px;
     border-radius: 15px;
+    width: 100%;
+    margin-right: 20px;
 }
 
 .imagensGaleria img:hover {

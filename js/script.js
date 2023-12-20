@@ -9,6 +9,8 @@ window.onscroll = function () {
     
 }
 
+
+
 document.querySelector(".abrirMenu").onclick = function () {
     document.documentElement.classList.add("menuMobile");
 }

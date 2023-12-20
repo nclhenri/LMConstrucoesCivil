@@ -77,7 +77,8 @@
 @media (max-width: 774px) {
 
     .menu {
-        background-color: rgba(202, 198, 198, 0.568);
+        background-color: white;
+        /* background-color: rgba(202, 198, 198, 0.568); */
         position: fixed;
         z-index: 10;
         width: 50%;
@@ -86,6 +87,8 @@
         margin: 0;
         right: -600px;
         transition: right 0.5s ease-out;
+        height: 102vh !important;
+        width: 50vh !important;
     }
 
     .menuMobile .menu {
@@ -177,6 +180,16 @@
         margin-top: 105px;
     }
 
+}
+
+@media (max-width: 536px) {
+    .imagensGaleria{
+        width: 100%;
+    }
+
+    .imagensGaleria img{
+        width: 100%;
+    }
 }
 
 @media (max-width: 536px) {
