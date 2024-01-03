@@ -11,7 +11,7 @@
 
     <div class="estruturaTopo2">
 
-        <div class="topo2 animate__animated animate__bounceInDown">
+        <!-- <div class="topo2 animate__animated animate__bounceInDown">
             <img src="./img/lmLogo.svg" alt="">
             <button class="abrirMenu"></button>
             <nav class="menu">
@@ -19,6 +19,19 @@
                 <ul id="menuR">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="sobre.php">Quem somos?</a></li>
+                    <li><a href="">Galeria</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div> -->
+
+        <div class="topo2 animate__animated animate__bounceInDown">
+            <img src="./img/lmLogo.svg" alt="">
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="sobre.php">Quem somos?</a></li>
+                    <li><a href="">Galeria</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>

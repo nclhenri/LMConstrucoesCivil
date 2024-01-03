@@ -34,80 +34,55 @@ header {
     color: white;
 }
 
-
 .topo2 {
-    background: transparent;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
+    align-items: center;
     z-index: 1;
 }
 
-
 .topo2 img {
-    margin-right: 10px;
-    cursor: pointer;
+    width: 30%;
 }
 
-.menu ul li a {
-    font-family: var(--font2);
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-    position: relative;
-    margin-right: 15px;
-}
-
-.menu ul {
+.topo2 nav ul {
     display: flex;
     list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    margin: 10px;
 }
 
+.topo2 nav {
+    margin-top: 20px;
 
-.menu ul li a::after {
-    content: " ";
-    width: 0%;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
-}
-
-.menu ul li a:hover::after {
-    width: 100%;
-}
-
-.abrirMenu, .fecharMenu{
-    border: none;
-}
-
-.topo2 div a:nth-child(2) {
-    margin: 0px 23px;
-}
-
-.topo2 div a:hover {
-    color: rgba(0, 0, 0, 0.37);
-}
-
-.menufixo {
-    z-index: 5;
-    background-color: #ffffffc7;
-    /* animation: fadeIn 1s ease-in-out; */
-    padding: 20px;
-    border-radius: 15px;
-}
-
-.estiloAlternativo{
-    background-color: white;
 }
 
 .estruturaTopo2 {
-    display: flex;
     justify-content: center;
+    display: flex;
 }
+
+.topo2 ul li a {
+    font-family: var(--font1);
+    color: black;
+    justify-content: space-between;
+    margin-right: 20px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.topo2 ul li a:hover {
+    color: blue
+}
+
+a {
+    text-decoration: none;
+}
+
+
 
 /* SEÇÃO BANNER */
 
@@ -285,7 +260,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.caixas{
+.caixas {
     justify-content: center;
 }
 
@@ -294,7 +269,7 @@ h3 {
     width: 100%;
 }
 
-.mens div{
+.mens div {
     display: flex;
     flex-direction: column;
 }
@@ -420,74 +395,169 @@ footer {
     width: 38%;
 }
 
-/* SOBRE NOS CSS */
+/* PAGINA SOBRE NOS CSS (2) */
 
-.sobreNos{
-    margin-top: 50px;
+.missaoVisao {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tituloMissao {
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+.cardMissao {
+    border: 2px solid black;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 50px;
 }
 
-.cabecalho {
+.estruturaMissao {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    margin-bottom: 15px;
 }
 
-.cabecalho h2{
-    margin-left: 40px;
+.estruturaMissao img {
+    width: 40%;
+}
+
+.estruturaMissao h2 {
     font-size: 40px;
     font-family: var(--font1);
     font-weight: bold;
 }
 
-.conteudo{
-    margin-top: 50px;
+.cardMissao p {
+    margin-top: 15px;
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.primeiraParte{
+.estruturaQualidade {
+    background-color: black;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
 }
 
-.conteudo p{
+.estruturaQualidade h2 {
+    color: white;
+    font-family: var(--font1);
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.descricaoQualidade p {
+    color: black;
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+.descricaoQualidade {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.separacao img {
+    width: 100%;
+}
+
+.quemSomos {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 20px;
+
+}
+
+.quemSomos h2 {
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: var(--font1);
+    font-weight: bold;
+    width: 100%;
+}
+
+.linhaPreta {
+    width: 100%;
+}
+
+.estruturaEngenheiro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.fotoEngenheiro img {
+    width: 100%;
+}
+
+.informacoesEngenheiro {
+    margin-left: 20px;
+}
+
+.informacoesEngenheiro h2 {
+    font-family: var(--font1);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formacao {
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 25px;
+    color: black;
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.informacoesEngenheiro p {
     font-family: var(--font1);
     font-weight: lighter;
     font-size: 18px;
+    color: black;
 }
 
-.texto{
-    margin-top: 20px;
-}
-
-.engenheiroSobre{
-    margin-top: 50px;
-    display: flex;
+.localizacao{
+    background-color: black;
     justify-content: center;
-}
-
-.informacoes{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    padding: 15px;
 }
 
-.informacoes h2{
+.localizacao div{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 40px;
     font-family: var(--font1);
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
-.informacoes h3{
-    text-align: initial;
-    font-family: var(--font1);
-    font-weight: lighter;
-    color: gray;
-}
-
-.informacoes p{
-    font-family: var(--font1);
-}
-
-.informacoes div{
-    margin-bottom: 15px;
+.separacao2 img{
+    width: 100%;
 }

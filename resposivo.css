@@ -1,12 +1,5 @@
 /* Smartphones: 320px até 600px */
 
-@media not all and (max-width: 600px) {
-
-    .abrirMenu,
-    .fecharMenu {
-        display: none;
-    }
-}
 
 @media (max-width: 1287px){
     .imagensGaleria{
@@ -76,74 +69,6 @@
 
 @media (max-width: 774px) {
 
-    .menu {
-        background-color: white;
-        /* background-color: rgba(202, 198, 198, 0.568); */
-        position: fixed;
-        z-index: 10;
-        width: 50%;
-        max-width: 300px;
-        top: 0;
-        margin: 0;
-        right: -600px;
-        transition: right 0.5s ease-out;
-        height: 102vh !important;
-        width: 50vh !important;
-    }
-
-    .menuMobile .menu {
-        right: -263px;
-    }
-
-
-    .abrirMenu {
-        background: url(./img/abrirMenu.svg);
-        background-size: cover;
-        padding: 20px;
-        border: 0;
-        display: block;
-    }
-
-    .fecharMenu {
-        background: url(./img/fecharMenu.png);
-        background-size: cover;
-        padding: 20px;
-        border: 0;
-        display: block;
-        width: 0%;
-        padding: 10%;
-        margin: 4%;
-    }
-
-    .menu{
-        flex-direction: column;
-        justify-content: flex-start ;
-        display: flex;
-    }
-
-    .menu ul {
-        flex-direction: column;
-    }
-
-    .menu ul li {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .menu ul li a {
-        font-size: 30px;
-        margin-right: 60px;
-        margin-bottom: 15px;
-    }
-
-    .menufixo {
-        z-index: 5;
-        background-color: #fff;
-        animation: fadeIn 1s ease-in-out;
-        padding: 20px;
-        border-radius: 15px;
-    }
-
 
     .topo2 img {
         width: 45%;
@@ -177,7 +102,7 @@
     }
 
     .servicos{
-        margin-top: 105px;
+        margin-top: 10px;
     }
 
 }
@@ -192,14 +117,12 @@
     }
 }
 
-@media (max-width: 536px) {
-    .menuMobile .menu {
-        right: -144px;
-    }
-}
 
 @media (max-width: 442px) {
         
+    .topo2 ul li{
+        margin-bottom: 17px;
+    }
 
     .topo2{
         position: inherit;
@@ -217,3 +140,46 @@
         background-color: black ;
     }
 }
+
+/* RESPONSIVO PARTE SOBRE NOS */
+
+@media (max-width: 1193px) {
+    .primeiraParte{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primeiraParte img{
+        margin-top: 10px;
+    }
+
+    .linhaPreta{
+        width: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho h2{
+        font-size: 30px !important;
+    }
+
+    .linhaPreta{
+        width: 10%;
+    }
+
+    .engenheiroSobre{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .engenheiroSobre img{
+        width: 70%;
+    }
+}
+
+@media (max-width: 322) {
+    .linhaPreta{
+        display: none;
+    }
+}
+
