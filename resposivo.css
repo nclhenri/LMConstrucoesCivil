@@ -1,5 +1,23 @@
 /* Smartphones: 320px até 600px */
 
+@media (max-width: 1324px) {
+    
+    .obrasCivis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aa a img{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .aa{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
 
 @media (max-width: 1287px){
     .imagensGaleria{
