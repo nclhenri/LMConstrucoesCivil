@@ -31,8 +31,7 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="sobre.php">Quem somos?</a></li>
-                    <li><a href="">Galeria</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="galeria.php">Galeria</a></li>
                 </ul>
             </nav>
         </div>
