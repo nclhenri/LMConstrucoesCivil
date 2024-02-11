@@ -397,167 +397,110 @@ footer {
 
 /* PAGINA SOBRE NOS CSS (2) */
 
-.missaoVisao {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.tituloMissao {
-    font-family: var(--font1);
-    font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 55px;
-}
-
-.cardMissao {
-    border: 2px solid black;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-}
-
-.estruturaMissao {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.estruturaMissao img {
-    width: 40%;
-}
-
-.estruturaMissao h2 {
-    font-size: 40px;
-    font-family: var(--font1);
+.tituloLM{
+    font-family: var(--font2);
+    font-size: 48px;
     font-weight: bold;
 }
 
-.cardMissao p {
-    margin-top: 15px;
-    font-family: var(--font1);
-    font-weight: lighter;
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 15px;
+.organizacao{
+    display: flex;
 }
 
-.estruturaQualidade {
-    background-color: black;
+.preto{
+    color: black;
+    font-family: var(--font1);
+    font-size: 24px;
+}
+
+.cards2{
+    background-color: #202020;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px;
     padding: 15px;
-    border-radius: 10px;
 }
 
-.estruturaQualidade h2 {
+.cards2 div h2, p{
+    font-family: var(--font1);
     color: white;
-    font-family: var(--font1);
-    font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 40px;
 }
 
-.descricaoQualidade p {
-    color: black;
-    font-family: var(--font1);
-    font-weight: lighter;
-    font-size: 23px;
-}
-
-.descricaoQualidade {
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.separacao img {
-    width: 100%;
-}
-
-.quemSomos {
+.cards2 div{
     display: flex;
     align-items: center;
-    justify-items: center;
-    margin: 20px;
-
+    justify-content: center;
+    flex-direction: column;
 }
 
-.quemSomos h2 {
-    margin-left: 20px;
+.qualidadeResultado{
+    display: flex;
+}
+
+.qualidadeResultado img{
+    margin: 0 10px;
+}
+
+.nossaEquipeTitle{
+    font-family: var(--font2);
+    font-weight: bold;
     font-size: 40px;
-    font-family: var(--font1);
-    font-weight: bold;
-    width: 100%;
+    margin-bottom: 40px;
 }
 
-.linhaPreta {
-    width: 100%;
-}
-
-.estruturaEngenheiro {
+.estruturaEquipe{
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
 }
 
-.fotoEngenheiro img {
-    width: 100%;
+.imagemEngenheiro{
+    margin-right: 15px;
+    width: 30%;
 }
 
-.informacoesEngenheiro {
-    margin-left: 20px;
-}
-
-.informacoesEngenheiro h2 {
-    font-family: var(--font1);
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.formacao {
-    font-family: var(--font1);
-    font-weight: lighter;
-    font-size: 25px;
-    color: black;
-    justify-content: flex-start;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.informacoesEngenheiro p {
-    font-family: var(--font1);
-    font-weight: lighter;
-    font-size: 18px;
-    color: black;
-}
-
-.localizacao{
-    background-color: black;
-    justify-content: center;
-    align-items: center;
+.informacoesEstrutura{
     display: flex;
     flex-direction: column;
-    padding: 15px;
 }
 
-.localizacao div{
-    display: flex;
+.cargo{
+    text-align: left;
+}
+
+.localizacao2{
+    border-radius: 15px;
+    background-color: #202020;
+    padding-top: 15px;
     color: white;
-    align-items: center;
-    font-size: 40px;
-    font-family: var(--font1);
-    font-weight: bold;
+}
+
+.localizacao2 h2{
+    margin-left: 10px;
+    font-family: var(--font2);
+}
+
+.separacao{
+    display: none;
+}
+
+.mapa{
     margin-bottom: 20px;
 }
 
-.separacao2 img{
+.responsive-iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Proporção de 16:9 */
+    height: 0;
+    margin-bottom: 30px;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
 }

@@ -21,107 +21,91 @@
     <main>
         <?php require_once('conteudo/header.php'); ?>
         <?php require_once('conteudo/banner.php'); ?>
-        <section class="missaoVisao site">
-            <h2 class="tituloMissao">Missão, Visão e Valores</h2>
-            <div class="cardMissao">
-                <div class="estruturaMissao">
-                    <img src="./img/missao.png" alt="">
-                    <h2>Missão</h2>
+        <section class="site">
+            <div class="soMargin">
+                <div class="tituloLM">
+                    <h2>A LM Construção Civil</h2>
                 </div>
-                <div>
-                    <img src="./img/linhaSeparacao.png" alt="">
-                </div>
-                <p>
-                    Perceber e entender as oportunidades de mercado, desenvolvendo produtos e soluções de engenharia para incorporações e construções, agregando valor e satisfação aos clientes, parceiros e colaboradores.
-                </p>
+                <p class="preto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dignissimos asperiores! Cum inventore dolorem recusandae obcaecati, consequatur omnis officia dolores repellendus dignissimos vitae possimus aspernatur ad totam. Odio, deleniti molestiae.</p>
             </div>
-            <div class="cardMissao">
-                <div class="estruturaMissao">
-                    <img src="./img/visao.png" alt="">
-                    <h2>Visão</h2>
+
+            <div class="organizacao site">
+                <div class="cards2">
+                    <div>
+                        <img src="./img/bandeira.png" alt="">
+                        <h2>Missão</h2>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sint aliquam et facere eligendi hic est nulla facilis voluptas, vero in. Modi reprehenderit hic eveniet commodi dolor vero cupiditate odio.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./img/linhaSeparacao.png" alt="">
+
+                <div class="cards2">
+                    <div>
+                        <img src="./img/olho.png" alt="">
+                        <h2>Visão</h2>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sint aliquam et facere eligendi hic est nulla facilis voluptas, vero in. Modi reprehenderit hic eveniet commodi dolor vero cupiditate odio.</p>
+                    </div>
                 </div>
-                <p>
-                    Ser referência na gestão de negócios na área de engenharia e de incorporação, gerando soluções equilibradas para cadeia envolvendo colaboradores, sócios e clientes com solidez, crescimento sustentado e resultados em suas operações.
-                </p>
-            </div>
-            <div class="cardMissao">
-                <div class="estruturaMissao">
-                    <img src="./img/valores.png" alt="">
-                    <h2>Valores</h2>
+
+                <div class="cards2">
+                    <div>
+                        <img src="./img/valor.png" alt="">
+                        <h2>Valores</h2>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sint aliquam et facere eligendi hic est nulla facilis voluptas, vero in. Modi reprehenderit hic eveniet commodi dolor vero cupiditate odio.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./img/linhaSeparacao.png" alt="">
-                </div>
-                <p>
-                    Transformamos adversidades em oportunidades, agindo com humildade e gentileza. Cultivamos o “Bom dia” e o “Muito obrigado”.
-                </p>
             </div>
         </section>
-        <section class="qualidades site">
-            <div class="estruturaQualidade">
+
+        <section class="qualidadeResultado site">
+            <div>
                 <div>
-                    <h2>Qualidades</h2>
+                    <h2>Qualidade</h2>
                 </div>
-                <div class="descricaoQualidade">
-                    <p>
-                        Desenvolvemos produtos e serviços dentro dos mais altos padrões de excelência. Cumprimos o que prometemos, respeitando os prazos estabelecidos, inovando e aprimorando nossos processos continuamente.
-                    </p>
-                </div>
+                <p class="preto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorum dolores nihil totam libero voluptatibus earum, unde dolorem. Repellendus voluptates mollitia expedita facilis labore in quibusdam aspernatur consequuntur earum numquam.</p>
             </div>
-
-            <div class="separacao site">
-                <img src="./img/separacao.png" alt="">
-            </div>
-
-            <div class="estruturaQualidade">
+            <img class="trocarImagem" src="./img/&.png" alt="">
+            <img class="separacao"  src="./img/separacao.png" alt="">
+            <div>
                 <div>
                     <h2>Resultados</h2>
                 </div>
-                <div class="descricaoQualidade">
-                    <p>
-                        Buscamos os melhores resultados, com equilíbrio em todos os seus componentes e agilidade na tomada de decisões.
-                    </p>
+                <p class="preto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorum dolores nihil totam libero voluptatibus earum, unde dolorem. Repellendus voluptates mollitia expedita facilis labore in quibusdam aspernatur consequuntur earum numquam.</p>
+            </div>
+        </section>
+
+        <section class="nossaEquipe site">
+            <h2 class="nossaEquipeTitle">Nossa Equipe</h2>
+            <div class="estruturaEquipe">
+                <div class="imagemEngenheiro">
+                    <img src="./img/engenheiro.png" alt="">
+                </div>
+                <div class="informacoesEstrutura">
+                    <div class="">
+                        <h2>Luan Brito</h2>
+                        <h3 class="preto cargo">Engenheiro Civil</h3>
+                    </div>
+                    <div>
+                        <p class="preto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quaerat quisquam vero perspiciatis ad, necessitatibus ducimus repellendus corrupti quos nemo consequuntur, autem non odit animi numquam soluta eum, eius nulla.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="Sobre site">
-            <div class="quemSomos">
-                <img src="./img/quemSomos.png" alt="">
-                <h2>Quem Somos</h2>
-                <img class="linhaPreta" src="./img/linhaPreta.png" alt="">
+        <section>
+            <?php require_once('conteudo/formulario.php') ?>
+        </section>
+
+        <section class="responsive-iframe-container site">
+            <div class="localizacao2">
+                <h2>Nossa localização</h2>
+                <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.3000470170637!2d-46.40990982457508!3d-23.485699778851945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63a3b19c6433%3A0xf137b951236862cd!2sR.%20Tiet%C3%AA%2C%20836%20-%20Vila%20Seabra%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008180-410!5e0!3m2!1spt-BR!2sbr!4v1707665251304!5m2!1spt-BR!2sbr" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
-            <div class="estruturaEngenheiro">
-                <div class="fotoEngenheiro">
-                    <img src="./img/engeenheiro.png" alt="">
-                </div>
-                <div class="informacoesEngenheiro">
-                    <h2>Luan Brito</h2>
-                    <h3 class="formacao">Engenheiro Civil</h2>
-                    <p>Lorem ipsum dolor sit amet. Ea voluptates labore et voluptas necessitatibus et quos aliquam. Hic necessitatibus doloremque et saepe rerum et nisi corporis ut molestias consequatur et optio consectetur non adipisci.</p>
-                </div>
-            </div>
-
-            <div class="localizacao">
-                <div>
-                    <img src="./img/localizacao.png" alt="">
-                    <h2>Nossa Localização</h2>
-                </div>
-
-                <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.300047017055!2d-46.40990982457507!3d-23.485699778851945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63a3b19c6433%3A0xf137b951236862cd!2sR.%20Tiet%C3%AA%2C%20836%20-%20Vila%20Seabra%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008180-410!5e0!3m2!1spt-BR!2sbr!4v1704306170070!5m2!1spt-BR!2sbr" width="1000   " height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-
-            <div class="separacao2 site">
-                <img src="./img/separacao2.png" alt="">
-            </div>
-
-            <?php require_once('conteudo/formulario.php'); ?>
         </section>
 
         <?php require_once('conteudo/footer.php'); ?>

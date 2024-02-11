@@ -18,6 +18,12 @@
         display: flex;
         flex-direction: column;
     }
+
+    .organizacao{
+        display: flex;
+        flex-direction: column;
+        width: 80% !important;
+    }
 }
 
 @media (max-width: 1200px){
@@ -30,6 +36,24 @@
         background-color: white;
         padding: 15px;
         border-radius: 15px;
+    }
+
+    .soMargin{
+        margin-left: 20px;
+    }
+
+    .qualidadeResultado{
+        margin-left: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .trocarImagem{
+        display: none;
+    }
+
+    .separacao{
+        display: initial !important;
     }
 }
 
@@ -97,12 +121,38 @@
     .contato {
         flex-direction: column;
     }
-    .banner{
+    /* .banner{
         display: none;
-    }
+    } */
 
     .servicos{
         margin-top: 10px;
+    }
+
+    .nossaEquipe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .estruturaEquipe{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .informacoesEstrutura{
+        align-items: center;
+    }
+
+    .informacoesEstrutura p{
+        align-items: center;
+    }
+
+    .topo2{
+        position: relative !important;
     }
 
 }
